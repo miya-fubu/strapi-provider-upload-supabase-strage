@@ -4,10 +4,10 @@ strapi to supabase file upload provider
 
 ## environment variable
 
-url: supabase API url
-apiKey: supabase API key
-bucket: supabase public bucket name
-bucketPrefix: directry in supabase bucket
+- url: supabase API url
+- apiKey: supabase API key
+- bucket: supabase public bucket name
+- bucketPrefix: directry in supabase bucket
 
 bucket and bucketPrefix are not required. Initial values are provided.
 
