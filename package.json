@@ -2,10 +2,24 @@
   "name": "strapi-provider-upload-supabase-strage",
   "version": "1.0.0",
   "description": "strapi to supabase file upload provider",
+  "homepage": "https://github.com/miya-fubu/strapi-provider-upload-supabase-strage",
   "main": "lib",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "strapi",
+    "supabase",
+    "provider"
+  ],
+  "author": "miya-fubu",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:miya-fubu/strapi-provider-upload-supabase-strage.git"
   },
-  "author": "",
-  "license": "ISC"
+  "bugs": {
+    "url": "https://github.com/miya-fubu/strapi-provider-upload-supabase-strage/issues"
+  },
+  "engines": {
+    "node": ">= 18.0.0",
+    "npm": ">= 8.19.0"
+  },
+  "license": "MIT"
 }
