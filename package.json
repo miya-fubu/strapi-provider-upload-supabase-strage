@@ -1,0 +1,11 @@
+{
+  "name": "strapi-provider-upload-supabase-strage",
+  "version": "1.0.0",
+  "description": "strapi to supabase file upload provider",
+  "main": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
