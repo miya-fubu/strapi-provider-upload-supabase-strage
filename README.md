@@ -23,7 +23,7 @@ create `./config/plugins.ts`
 module.exports = ({ env }) => ({
   upload: {
     config: {
-      provider: 'strapi-provider-upload-supabase', // For community providers pass the full package name (e.g. provider: 'strapi-provider-upload-google-cloud-storage')
+      provider: 'strapi-provider-upload-supabase-strage', // For community providers pass the full package name (e.g. provider: 'strapi-provider-upload-google-cloud-storage')
       providerOptions: {
         url: env("SUPABASE_URL"),
         apiKey: env("SUPABASE_KEY"),
