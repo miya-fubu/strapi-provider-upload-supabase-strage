@@ -6,8 +6,8 @@ strapi to supabase file upload provider
 
 - url: supabase API url
 - apiKey: supabase API key
-- bucket: supabase public bucket name
-- bucketPrefix: directry in supabase bucket
+- bucket: supabase public bucket name (default: `strapi`)
+- bucketPrefix: directry in supabase bucket (default: "")
 
 bucket and bucketPrefix are not required. Initial values are provided.
 
